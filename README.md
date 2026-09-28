@@ -27,17 +27,17 @@ After running `/unpack` and restarting Claude Code, the session is indistinguish
 ```bash
 mkdir -p ~/.claude/commands && \
   curl -L -o ~/.claude/commands/pack.md \
-    https://raw.githubusercontent.com/YOUR_USERNAME/claudepack/main/commands/pack.md && \
+    https://raw.githubusercontent.com/americanumberoneaokgoodtimes/claudepack/main/commands/pack.md && \
   curl -L -o ~/.claude/commands/unpack.md \
-    https://raw.githubusercontent.com/YOUR_USERNAME/claudepack/main/commands/unpack.md
+    https://raw.githubusercontent.com/americanumberoneaokgoodtimes/claudepack/main/commands/unpack.md
 ```
 
 ### Option B — One-liner (Windows PowerShell)
 ```powershell
 New-Item -ItemType Directory -Path "$env:USERPROFILE\.claude\commands" -Force | Out-Null
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/YOUR_USERNAME/claudepack/main/commands/pack.md" `
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/americanumberoneaokgoodtimes/claudepack/main/commands/pack.md" `
   -OutFile "$env:USERPROFILE\.claude\commands\pack.md"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/YOUR_USERNAME/claudepack/main/commands/unpack.md" `
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/americanumberoneaokgoodtimes/claudepack/main/commands/unpack.md" `
   -OutFile "$env:USERPROFILE\.claude\commands\unpack.md"
 ```
 

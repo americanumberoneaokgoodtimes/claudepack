@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # claudepack installer — Unix/Mac
-# Usage: curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/claudepack/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/americanumberoneaokgoodtimes/claudepack/main/install.sh | bash
 
 set -e
 
 COMMANDS_DIR="${HOME}/.claude/commands"
-BASE_URL="https://raw.githubusercontent.com/YOUR_USERNAME/claudepack/main/commands"
+BASE_URL="https://raw.githubusercontent.com/americanumberoneaokgoodtimes/claudepack/main/commands"
 
 echo "Installing claudepack..."
 mkdir -p "$COMMANDS_DIR"
